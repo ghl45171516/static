@@ -1,37 +1,30 @@
 .personal_con {
-  width: 93%;
+  /*background: url("../img/my.png") no-repeat center top;*/
+  /*background-size: 100% auto;*/
+  padding-bottom: 65px;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 2;
-}
-.Router{
-  background-color:#f6f6f6;
-}
-.personalCon {
-  position: relative;
-  background-color:#ececec;
-}
 
-.personalCon .bg {
- 
+}
+.personalCon{
+  position: relative;
+}
+.personalCon .bg{
   position: relative;
   /*width: 100%;*/
   height: 200px;
   overflow: hidden;
 }
-
-.personalCon .top {
+.personalCon .top{
   width: 200px;
   height: 200px;
-  transform: translate(-48px, -108px);
+  transform:translate(-48px,-108px);
   border-radius: 50%;
 }
-
-.personalCon .bottom {
+.personalCon .bottom{
   width: 150px;
   height: 150px;
-  transform: translate(287px, -140px);
+  transform:translate(287px,-140px);
   border-radius: 50%;
 }
 
@@ -39,7 +32,7 @@
 .personalCon .bg .per_head {
   position: absolute;
   left: 0;
-  top: 0;
+  top:0;
   width: 97%;
   margin: 0 auto;
   display: flex;
@@ -52,16 +45,14 @@
   width: 26px;
   display: block;
 }
-
-.personalCon .bg .per_head a:nth-child(1) {
+.personalCon .bg .per_head a:nth-child(1){
   margin-right: 15px;
 }
 
-.personalCon .bg .per_head a {
+.personalCon .bg .per_head a{
   position: relative;
 }
-
-.personalCon .bg .per_head .num {
+.personalCon .bg .per_head .num{
   position: absolute;
   min-width: 12px;
   line-height: 12px;
@@ -69,15 +60,14 @@
   background: #fff;
   padding: 0 3px;
   border-radius: 10px;
-  top: -3px;
-  right: 0px;
+  top:-3px;
+  right:0px;
   text-align: center;
 }
-
 .personal_con .con {
   width: 100%;
-  margin: 0 auto;
-  border-radius: 10px;
+  margin: 0 auto 10px;
+  box-shadow: 0 0 2px 1px #E7E7E7;
   background: #fff;
   /*border-radius: 2px;*/
 }
@@ -135,20 +125,12 @@
 
 .per_list {
   width: 100%;
-  align-items: center;
-}
-.per_list>li{
-  width: 100%;
-  border-bottom: 1px solid #f4f4f4;
-}
-.per_list>li>div{
-  font-size: 16px;
-  font-weight: 500;
-  padding: 20px 10px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-/* .per_list li {
+
+.per_list li {
   width: 25%;
   padding-bottom: 10px;
 }
@@ -180,7 +162,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-} */
+}
 
 .personal_con .con .title {
   font-size: 16px;
@@ -193,8 +175,7 @@
   align-items: center;
   /*font-weight: bold;*/
 }
-
-.personal_con .con .title .level {
+.personal_con .con .title .level{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,24 +183,22 @@
   padding: 0 5px;
   margin-left: 10px;
   /*background: url("../img/icon44.png") no-repeat;*/
-  background: linear-gradient(to right, #ff9400, #ff7617);
+  background:linear-gradient(to right,#ff9400,#ff7617);
   border-radius: 0 10px 10px 10px;
-  box-shadow: 0 0 10px 0 rgba(255, 148, 0, .4);
-  background-size: 100% 100%;
+  box-shadow: 0 0 10px 0 rgba(255, 148, 0,.4);
+  background-size:100% 100%;
   font-size: 9px;
   line-height: 16px;
   text-align: center;
   color: #fff;
 }
-
-.personal_con .con .title .level a {
+.personal_con .con .title .level a{
   color: #fff;
   display: block;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
 .personal_con .con .title::after {
   /*width: 200%;*/
   /*height: 1px;*/
@@ -280,8 +259,7 @@
   height: 26px;
   overflow: hidden;
 }
-
-.wallet_ope li .iconColor {
+.wallet_ope li .iconColor{
   border-right: 26px solid transparent;
   position: relative;
 }
@@ -349,8 +327,7 @@
   line-height: 30px;
 }
 
-.user_pic,
-.user_sex {
+.user_pic, .user_sex {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -359,8 +336,7 @@
   display: none;
 }
 
-.user_pic li,
-.user_sex li {
+.user_pic li, .user_sex li {
   font-size: 14px;
   line-height: 42px;
   color: #202224;
@@ -369,8 +345,7 @@
   text-align: center;
 }
 
-.user_pic li.cancel,
-.user_sex li.cancel {
+.user_pic li.cancel, .user_sex li.cancel {
   border-bottom: none;
   margin-top: 8px;
 }
@@ -386,8 +361,8 @@
   border-bottom: 1px solid #eee;
   display: block;
   width: 100%;
-  font-size: 17px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 20px;
   padding: 10px 10px;
 }
 
@@ -423,7 +398,7 @@
 }
 
 .vip_head .small {
-  color: #fff !important;
+  color: #fff!important;
 }
 
 .vip_card {
@@ -504,14 +479,14 @@
   border-top: 1px solid #eee;
 }
 
-.vip_card .member_benefits>div {
+.vip_card .member_benefits > div {
   display: flex;
   align-items: center;
   font-size: 14px;
   line-height: 20px;
 }
 
-.vip_card .member_benefits>div img {
+.vip_card .member_benefits > div img {
   width: 16px;
   display: block;
   margin-right: 6px;
@@ -560,7 +535,7 @@
 
 .pay_card .QR_code {
   width: 130px;
-  height: 130px;
+  height:130px;
   margin: 0 auto;
   display: block;
   /*overflow: hidden;*/
@@ -576,7 +551,7 @@
   margin-top: 4%;
 }
 
-.set_pass div {
+.set_pass  div {
   background: #394753;
   display: flex;
   align-items: center;
@@ -586,13 +561,11 @@
   padding: 0 15px;
   border-radius: 20px;
 }
-
-.set_pass a {
+.set_pass  a{
 
   color: #fff;
 }
-
-.set_pass div img {
+.set_pass  div img {
   width: 6px;
   margin-left: 5px;
   display: block;
@@ -602,11 +575,9 @@
 .pay_card .member_benefits {
   justify-content: center;
 }
-
-.pay_card .member_benefits .tips {
+.pay_card .member_benefits .tips{
   margin-right: 10px;
 }
-
 .pay_card .member_benefits .iconPar {
   border: 1px solid #D1D1D1;
   border-radius: 20px;
@@ -763,7 +734,7 @@
   background: #fff;
 }
 
-.notice_det>div {
+.notice_det > div {
   padding-right: calc(3% + 60px);
   position: relative;
   padding-top: 15px;
@@ -771,7 +742,7 @@
   border-bottom: 1px solid #eee;
 }
 
-.notice_det>div .pri_address {
+.notice_det > div .pri_address {
   position: absolute;
   right: 3%;
   top: 50%;
@@ -969,7 +940,7 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 100% !important;
+  width: 100%!important;
 }
 
 .account_head .user_name {
@@ -1028,20 +999,18 @@
   justify-content: center;
   position: relative;
 }
-
-.vip_level .level>span {
+.vip_level .level > span{
   content: '';
   position: absolute;
-  right: -30px;
-  top: 50%;
+  right:-30px;
+  top:50%;
   margin-top: -3px;
   height: 6px;
   width: 50%;
   z-index: 1;
-  background: linear-gradient(to right, #b18c3c, #b58f3e);
+  background: linear-gradient(to right,#b18c3c,#b58f3e);
 }
-
-.vip_level .level .cur {
+.vip_level .level .cur{
   color: #eee6c6;
   background: #795B1D;
   font-size: 13px;
@@ -1052,8 +1021,7 @@
   position: relative;
   z-index: 2;
 }
-
-.vip_level .level .next {
+.vip_level .level .next{
   background: #dbbe89;
   width: 30px;
   line-height: 30px;
@@ -1063,12 +1031,12 @@
   color: #b58f3e;
   position: absolute;
   right: 0;
-  top: 50%;
+  top:50%;
   margin-top: -15px;
   z-index: 2;
 }
-
-.vip_level .vip_con .grow_process {}
+.vip_level .vip_con .grow_process {
+}
 
 .vip_level .vip_con .grow_process .cur_level {
   font-size: 12px;
@@ -1197,7 +1165,7 @@
   position: relative;
 }
 
-.member_new>img {
+.member_new > img {
   display: block;
   height: 100%;
   width: 100%;
@@ -1230,7 +1198,6 @@
   font-size: 14px;
   line-height: 24px;
 }
-
 .vip_level .now {
   color: #8b6c26;
   font-size: 14px;
@@ -1254,22 +1221,22 @@
   padding-bottom: 10px;
 }
 
-.member_list>div {
+.member_list > div {
   /*white-space: nowrap;*/
   /*overflow: auto;*/
   /*overflow-y: hidden;*/
   /*margin-left: 10px;*/
 }
 
-.member_list>div:first-child {
+.member_list > div:first-child {
   margin-left: 0;
 }
 
-.member_list>div::-webkit-scrollbar {
+.member_list > div::-webkit-scrollbar {
   opacity: 0;
 }
 
-.member_list>div .member_new {
+.member_list > div .member_new {
   width: 100%;
   height: 100px;
   margin: 5px auto;
@@ -1322,8 +1289,7 @@
   margin-top: 20px;
 }
 
-.member_con table th,
-.member_con table td {
+.member_con table th, .member_con table td {
   border: 1px solid #eee;
   text-align: center;
   font-size: 14px;
@@ -1341,33 +1307,31 @@
 
 
 /*代言*/
-.represent_list .icon {
-  width: 36px !important;
+.represent_list .icon{
+  width: 36px!important;
 }
-
-.represent_list li {
+.represent_list li{
   width: 33.3%;
   position: relative;
 }
-
 /*.represent_list li::after{*/
-/*width: 1px;*/
-/*height: 30px;*/
-/*background: #eeeeee;*/
-/*content: '';*/
-/*position: absolute;*/
-/*right:0;*/
-/*top:12px*/
+  /*width: 1px;*/
+  /*height: 30px;*/
+  /*background: #eeeeee;*/
+  /*content: '';*/
+  /*position: absolute;*/
+  /*right:0;*/
+  /*top:12px*/
 /*}*/
-.represent_list li .text {
-  margin-top: 0 !important;
+.represent_list li .text{
+  margin-top: 0!important;
 }
 
 
 /*新的布局页面*/
-.head_item {
+.head_item{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   left: 5%;
@@ -1375,76 +1339,63 @@
   width: 90%;
   height: 100px;
 }
-
-.head_item>.head {
+.head_item>.head{
   display: flex;
   align-items: center;
   width: 70%;
   height: 100%;
 }
-
-.head_item>.head>a {
+.head_item>.head>a{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 100%;
 }
-
-.head_item>.head>a>a {
+.head_item>.head > a > a{
   display: block;
   width: 70%;
 }
-
-.head_item>.head>a>img {
+.head_item>.head > a > img{
   width: 66px;
-  height: 66px;
+  height:66px;
   border-radius: 100%;
 }
-
-.head_item>.head>a .name_vip {
+.head_item>.head>a .name_vip{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
   height: 54%;
+  margin-left: 5%;
 }
-
-.head_item>.head>a .name_vip>span {
+.head_item>.head>a .name_vip>span{
   font-size: 16px;
   color: #fff;
 }
-
-.head_item>.head>a .name_vip>img {
+.head_item>.head>a .name_vip>img{
   width: 84px;
   height: 26px;
   margin-top: 10px;
 }
-
-.head_item>.vip_stuck {
+.head_item>.vip_stuck{
   width: 86px;
   height: 48px;
 }
-
-.head_item>.vip_stuck img {
+.head_item>.vip_stuck img{
   width: 100%;
   height: 100%;
 }
-
 /*登录*/
-.head_item>.head .name_vip .login {
+.head_item>.head .name_vip .login{
   display: flex;
   align-items: center;
   height: 100%;
   color: #fff;
 }
-
-.head_item>.head .name_vip .login a {
+.head_item>.head .name_vip .login a{
   color: #fff;
 }
-
 /*钱包*/
-.my_wallet {
+.my_wallet{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1455,38 +1406,33 @@
   height: 44px;
   background: linear-gradient(to right, #f8f8f8, #efefef);
   border-radius: 10px 10px 0 0;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
   padding: 0 3%;
 }
-
-.my_wallet .prompt {
+.my_wallet .prompt{
   display: flex;
   align-items: center;
   width: 70%;
   height: 100%;
   color: #966155;
 }
-
-.my_wallet .prompt>div {
+.my_wallet .prompt>div{
   display: block;
   overflow: hidden;
   width: 25px;
   height: 25px;
 }
-
-.my_wallet .prompt>div>img {
+.my_wallet .prompt>div>img{
   position: relative;
   width: 100%;
   height: 100%;
   border-right: 1px solid transparent;
 }
-
-.my_wallet .prompt>span {
+.my_wallet .prompt>span{
   font-size: 14px;
   margin-left: 10px;
 }
-
-.my_wallet .enter_into {
+.my_wallet .enter_into{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1499,72 +1445,53 @@
 }
 
 /*订单*/
-.dingdan {
+.order{
   width: 100%;
-  height: 120px;
-  position: relative;
-  background-color:#f6f6f6;
-}
-
-.order {
-  border-radius: 10px;
-  overflow: hidden;
-  position: absolute;
-  left: 50%;
-  top: -30px;
-  transform:translateX(-50%);
-  width: 93%;
-  background-color: #ffffff;
+  /*height: 134px;*/
+  background-color: #fff;
   margin-bottom: 10px;
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
-
-.order_title {
+.order_title{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
-  height: 40px;
+  padding: 0 20px;
+  height: 50px;
   margin-bottom: 10px;
 }
-
-.order_title>.title {
+.order_title>.title{
   font-size: 16px;
   color: #000000;
   /*font-weight: bold;*/
 }
-
-.order_title>.order_all {
+.order_title>.order_all{
   display: flex;
   align-items: center;
   font-size: 14px;
   color: #666;
 }
-
-.order_title>.order_all::after {
+.order_title>.order_all::after{
   display: block;
   content: '';
   width: 8px;
-  height: 8px;
+  height:8px;
   border-right: 1px solid #848484;
   border-bottom: 1px solid #848484;
   transform: rotate(-45deg);
   margin-left: 6px;
 }
-
-.order_title>.order_all a {
+.order_title>.order_all a{
   color: #848484;
 }
-
-.order_list {
+.order_list{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
 }
-
-.order_list>.list {
+.order_list>.list{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1572,24 +1499,21 @@
   width: 20%;
   height: 60px;
 }
-
-.order_list>.list .order_icon {
+.order_list>.list .order_icon{
   position: relative;
   height: 100%;
 }
-
-.order_list>.list .order_icon>img {
+.order_list>.list .order_icon>img{
   width: 36px;
   height: 36px;
 }
-
-.order_list>.list .order_icon>.num {
+.order_list>.list .order_icon>.num{
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   right: 0;
-  top: -2px;
+  top:-2px;
   border: 1px solid #9e262f;
   border-radius: 100%;
   background-color: #fff;
@@ -1598,22 +1522,7 @@
   min-width: 20px;
   min-height: 20px;
 }
-
-.order_list>.list .order_text {
+.order_list>.list .order_text{
   font-size: 14px;
   color: #222;
-}
-
-.clearfix:after {
-  /*伪元素是行内元素 正常浏览器清除浮动方法*/
-  content: "";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.clearfix {
-  *zoom: 1;
-  /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
 }

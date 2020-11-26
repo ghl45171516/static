@@ -152,8 +152,6 @@
 .inter_cate ul {
   font-size: 0;
   white-space: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
 }
 
 .inter_cate ul li {

@@ -850,7 +850,6 @@
 
 .flash_sale_title {
   display: flex;
-  align-items: center;
   width: 100%;
   height: 20%;
 }
@@ -859,16 +858,14 @@
   display: flex;
   align-items: center;
   position: relative;
-  width: 58px;
-  height: 18px;
-  margin: 0 10px;
-  overflow: hidden;
+  width: 25%;
+  height: 100%;
 }
 
 .flash_sale_title > .title > img {
-  position: relative;
-  width: 58px;
-  height: 18px;
+  width: 85px;
+  height: 27px;
+  margin-left: -8px;
 }
 
 .flash_sale_title > .title > span {
@@ -1072,7 +1069,6 @@
 }
 
 .dan_certify > .goods > .list > a {
-  display: flex;
   width: 100%;
   height: 100%;
 }
@@ -1097,7 +1093,6 @@
 .dan_certify .describe > .title {
   color: #212121;
   font-size: 14px;
-  line-height: 20px;
 }
 
 .dan_certify .describe > .label {

@@ -12,9 +12,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   max-width: 720px;
   cursor: none;
 }
-/* html{
-  margin: 0 auto;
-} */
 *{
   -webkit-touch-callout:none;
   -webkit-user-select:none;
@@ -360,7 +357,7 @@ header .coupon_icon {
 
 .head_search > div {
   position: relative;
-  padding: 0 36px 0 24px;
+  padding: 0 44px 0 24px;
   height: 100%;
 }
 
@@ -387,7 +384,7 @@ header .coupon_icon {
   top: 50%;
   margin-top: -15px;
   right: 0;
-  color: #878c8e;
+  color: #202224;
   border: none;
   outline: none;
   background: #fff;
@@ -412,17 +409,15 @@ header .coupon_icon {
 }
 
 .head_search .search_text input {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 23px;
-  padding: 5px 0 5px 33px;
-  color:#3b3c3d;
+  padding: 5px 0 5px 24px;
+  color: #202224;
   display: block;
   background: transparent;
   width: 100%;
 }
-.head_search .search_text input ::-webkit-input-placeholder{
-  color: #bcc0c6;
-}
+
 .input_text .del {
   width: 14px;
   position: absolute;

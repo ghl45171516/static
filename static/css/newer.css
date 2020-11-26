@@ -67,14 +67,13 @@
 }
 
 .new_pic .list ul li > div {
-  display: flex;
-  justify-content: flex-end;
   background: #fff;
   padding: 10px 5%;
   position: relative;
 }
 
 .new_pic .list .use {
+  margin-left: 56px;
   padding: 2px 0;
 }
 
@@ -109,7 +108,7 @@
 }
 
 .new_pic .list .number .num {
-  font-size: 38px;
+  font-size: 40px;
   /*font-family: 'Times New Roman';*/
   word-spacing: 1px;
 }
@@ -230,7 +229,7 @@
   height: 38vw;
   position: absolute;
   left: 31vw;
-  top: 58%;
+  top: 97vw;
   display: flex;
   align-items: center;
   justify-content: center;

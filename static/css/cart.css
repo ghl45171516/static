@@ -164,12 +164,6 @@
   overflow: hidden;
   margin-top: 4px;
 }
-.cart_shop_con .det_con .size > span{
-  max-width: 90%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 
 .cart_shop_con .det_con .size img {
   width: 12px;

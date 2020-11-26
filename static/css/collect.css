@@ -220,8 +220,6 @@
     width: 140px;
     height: 140px;
     top:0;
-    padding-left:10px;
-    border-radius: 5px;
 }
 .concern_goods_list .concern_shop_det{
     padding-left: 150px;
@@ -335,13 +333,6 @@
     bottom:20px;
     left:0;
     width: 95%;
-    display: flex;
-    justify-content: space-between;
-}
-.concern_goods .end .group_price{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .concern_goods_list.coupon_write_shop .list{
     padding-left: calc(3% + 30px);
