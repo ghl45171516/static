@@ -1,0 +1,10 @@
+.list_city{
+  /* background-color: #fff; */
+}
+.cur_tips{
+  padding: 5%;
+  font-size: 18px;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+}
+
